@@ -1,0 +1,291 @@
+setLight(1,ON);
+  setLight(2,ON);
+  setLight(3,ON);
+  setLight(4,ON);
+  setLight(5,ON);
+  setLight(6,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    brightness = brightness + fadeStep;
+    analogWrite(brightnessPin,brightness);
+    
+    delay(fadeDelay);
+  }
+  
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    brightness = brightness - fadeStep;
+    analogWrite(brightnessPin,brightness);
+    
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(2,OFF);
+  setLight(3,OFF);
+  setLight(4,OFF);
+  setLight(5,OFF);
+  setLight(6,OFF);
+  sendDatabits();
+  
+  setLight(2,ON);
+  setLight(3,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(2,OFF);
+  setLight(3,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(2,ON);
+  setLight(4,ON);
+  setLight(5,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(2,OFF);
+  setLight(4,OFF);
+  setLight(5,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(2,ON);
+  setLight(3,ON);
+  setLight(4,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(2,OFF);
+  setLight(3,OFF);
+  setLight(4,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+  
+  setLight(2,ON);
+  setLight(3,ON);
+  setLight(6,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(2,OFF);
+  setLight(3,OFF);
+  setLight(6,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(3,ON);
+  setLight(4,ON);
+  setLight(6,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(3,OFF);
+  setLight(4,OFF);
+  setLight(6,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(3,ON);
+  setLight(4,ON);
+  setLight(5,ON);
+  setLight(6,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(3,OFF);
+  setLight(4,OFF);
+  setLight(5,OFF);
+  setLight(6,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(2,ON);
+  setLight(3,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(2,OFF);
+  setLight(3,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(2,ON);
+  setLight(3,ON);
+  setLight(4,ON);
+  setLight(5,ON);
+  setLight(6,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(2,OFF);
+  setLight(3,OFF);
+  setLight(4,OFF);
+  setLight(5,OFF);
+  setLight(6,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+  
+  setLight(1,ON);
+  setLight(2,ON);
+  setLight(3,ON);
+  setLight(6,ON);
+  setLight(7,ON);
+  sendDatabits();
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness + fadeStep;
+    delay(fadeDelay);
+  }
+  delay(delayTime);
+  for (int i = 0; i < maxBrightness; i++)  {
+    analogWrite(brightnessPin,brightness);
+    brightness = brightness - fadeStep;
+    delay(fadeDelay);
+  }
+  setLight(1,OFF);
+  setLight(2,OFF);
+  setLight(3,OFF);
+  setLight(6,OFF);
+  setLight(7,OFF);
+  sendDatabits();
+
+  
+  
+  //allOn();                             // turn all lights on
+  //sendDatabits();
+  //delay(delayTime);
+  
+  //allOff();                            // turn all lights off
+  //sendDatabits();
+  //delay(delayTime);
+  
+  //for(int i = 1; i < DATABITS; i++) {  // turn all lights on, in numerical order, starting with light 1
+    //setLight(i,ON);
+    //sendDatabits();
+    //delay(delayTime);
+  //}
+
+  //for(int i = (DATABITS-1); i > 0; i--) {
+    //setLight(i,OFF);                   // turn all lights off, in reverse numerical order, starting
+    //sendDatabits();                    // with the last light
+    //delay(delayTime);
+  //}
+
+  //for(int i = (DATABITS-1); i > 0; i--) {
+    //setLight(i,ON);                    // turn all lights on, in reverse numerical order, starting
+    //sendDatabits();                    // with the last light
+    //delay(delayTime);
+  //}
+  
+  //for(int i = 1; i < DATABITS; i++) {  // turn all lights off, in numerical order, starting with light 1
+    //setLight(i,OFF);
+    //sendDatabits();
+    //delay(delayTime);
+  //}
+  
+  //for(int i = 0; i < 3; i++) {          // flash the lights 3 times
+    //allOn();
+    //sendDatabits();
+    //allOff();
+    //sendDatabits();
+    //delay(100);
+  //}
+  //delay(1000);                          // wait 5 seconds before starting loop over
+  
+  // Other examples:
+  //
+  // setLight(1,ON);                    // This would turn light 1 on
+  // sendDatabits();
+  // toggleLight(1);                    // This would turn it off
+  // sendDatabits();
+  // setLight(2,ON);                    // Turn on lights 2 and 4
+  // setLight(4,ON);
+  // sendDatabits();
