@@ -1,8 +1,6 @@
 /*
  * http://code.google.com/p/arduino-seven-segment/
  *
- * This is a demo of the seven segment library
- * that displays the time from a Network Time Protocol (NTP) time server
  *
  * You will need to set your driver and your screen configuration in the line
  * screen.begin("AY0438","8.8|8.8");
@@ -26,8 +24,10 @@
  by Tom Igoe
  modified Jan 2012 for SevenSegment library
  by Marcus Mason
+ modified 7 Nov 2016
+ by Jeremiah Duke
 
- This code is in the public domain.
+ This code is in the public domain. Customizations have been made to work with the giant LED clock I have developed.
 
 */
 #include <SPI.h>
