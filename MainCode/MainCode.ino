@@ -46,7 +46,7 @@
 // Enter a MAC address and IP address for your controller below.
 // The IP address will be dependent on your local network:
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-byte ip[] = { 10,4,8,16 }; //SGS Clock IP
+byte ip[] = { 10,4,11,12 }; //SGS Clock IP
 //byte ip[] = { 192,168,1,33 }; //Home Clock IP
 byte subnet[] = { 255,255,252,0};
 byte gateway[] = { 10,4,8,1};
