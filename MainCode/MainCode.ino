@@ -125,7 +125,7 @@ void digitalClockDisplay(){
         }
         
         //Daylight Saving time - Comment for Fall back...Un-comment for spring forward 
-        tHour=tHour+1;
+        //tHour=tHour+1;
         if (tHour == 13){
           tHour = 1;
         }
